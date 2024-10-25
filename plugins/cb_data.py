@@ -16,15 +16,15 @@ from helper.progress import humanbytes
 from helper.set import escape_invalid_curly_brackets
 import os
 
-log_channel = int(os.environ.get("LOG_CHANNEL", ""))
+log_channel = int(os.environ.get("LOG_CHANNEL", "-1002303065410"))
 
-API_ID = int(os.environ.get("API_ID", ""))
+API_ID = int(os.environ.get("API_ID", "28243586"))
 
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "4022d5686b9b7a7cf8891205921a0ab3")
 
-STRING = os.environ.get("STRING", "")
+STRING = os.environ.get("STRING", "AQGu9oIAU4Py7M1EH6w6f-Y8XezEeKPJq_8n02mAfY8A4uL3EBBMi6rWnIUbQqsddbpjkBpu7D28-TowTMAURn_NCR3K2RmrewP0deOQzsco_p7QLK_29tJ3ldnm4OdDsM4uSBe2kXwBnFP8FracySiyMH7xmPk3rzjm4cQU8ujvI6GDnafcdp_u_9BT0RB43AsCjQ8qOzAh7G55Slq5B_jesN0ailJBu_MV1J5o9QpPqkrLlEZQwlY4gRYqfDAQ8c4kiFcUgoU6A0m1v367Bq6fOtuJRjam-TerayDKgcPs3rTG2VJindCW_8BuKz25A3qHuSpzLFyoNVn6H2MeKNv-nahsigAAAAFZFXRRAA")
 
-ADMIN = os.environ.get("ADMIN", "")
+ADMIN = os.environ.get("ADMIN", "7871556756")
 
 app = Client("test", api_id=API_ID, api_hash=API_HASH, session_string=STRING)
 
